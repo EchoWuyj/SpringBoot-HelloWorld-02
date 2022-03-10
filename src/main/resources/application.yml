@@ -1,0 +1,32 @@
+person:
+  #单引号会将\n作为字符串输出
+  #双引号会将\n作为换行输出
+  #双引号不会转义,单引号会转义
+  boss: true
+  birth: 2022/3/8
+  age: 18
+  interests:
+    - 篮球
+    - 足球
+    - 羽毛球
+  animal:
+    - 阿猫
+    - 阿狗
+  score:
+    english: 89
+    math: 90
+  salarys:
+    - 99.98
+    - 99.99
+  pet:
+    name: 阿狗
+    weight: 18
+  allPets:
+    sick:
+      - {name: tom,weight: 18.88}
+      - name: jack
+        weight: 19.99
+    health:
+      - name: rose
+        weight: 15.55
+  user-name: zhangsan
